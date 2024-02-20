@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+    <title>Decodificador de texto</title>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="logo">
+
+        </div>
+
+        <div class="textoPrincipal">
+            <textarea type="text" id="texto"
+                placeholder="Digite um texto que deseja criptografar ou descriptografar(somente letras minusculas)"></textarea>
+        </div>
+
+        <div class="btn">
+
+
+            <button onclick="criptografar()" class="btn1" type="button" name="criptografar" id=""
+                placeholder="Criptografar"> Criptografar
+            </button>
+            <button onclick="descriptografar()" class="btn2" type="button" name="" id="">Descriptografar</button>
+        </div>
+
+
+        <div class="campo">
+            <p class="textoCampo" id="resultado"> </P>
+
+            <div class="buttonCopiar">
+                <button onclick="copiar()" class="btn3" type="button" name="" id=""> Copiar</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
